@@ -11,8 +11,8 @@ NuGet Dependencies:
 Step by Step terminal:
 - dotnet new webapi -n LeaderboardAPI
 - cd  LeaderboardAPI
-- dotnet add package Microsoft.EntityFrameworkCore --version 7.0.0
-- dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 7.0.0
+- dotnet add package Microsoft.EntityFrameworkCore --version 7.0.0 (choose wisely)
+- dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 7.0.0 (choose wisely)
 - dotnet ef migrations add InitialCreate
 - dotnet ef database update
 - Add-Migration InitialCreate
